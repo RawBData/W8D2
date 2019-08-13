@@ -1,0 +1,42 @@
+
+request_methods =  
+[:update_param, :delete_param, :params, :fullpath, :url, :authority, :script_name=, :path_info=, :request_method, 
+:query_string, :content_length, :logger, :user_agent, :multithread?, :referer, :referrer, :session, :GET, 
+:session_options, :get?, :head?, :options?, :link?, :patch?, :post?, :put?, :trace?, :unlink?, :POST, :cookies, 
+:xhr?, :host_with_port, :ssl?, :ip, :accept_encoding, :scheme, :body, :values_at, :media_type, :media_type_params, 
+:content_charset, :form_data?, :parseable_data?, :[]=, :base_url, 
+:accept_language, :trusted_proxy?, :[], :path_info, 
+:content_type, :script_name, :port, :host, :delete?, 
+:path, :fetch_header, :env, :each_header, :set_header, 
+:add_header, :delete_header, :has_header?, :get_header, 
+:instance_variable_set, :instance_variable_defined?, 
+:remove_instance_variable, :instance_of?, :kind_of?, :is_a?, 
+:tap, :instance_variable_get, :public_methods, 
+:instance_variables, :method, :public_method, 
+:define_singleton_method, :public_send, :singleton_method, 
+:extend, :pp, :to_enum, :enum_for, :gem, 
+:<=>, :===, :=~, :!~, :eql?, :respond_to?, 
+:freeze, :inspect, :object_id, :send, :to_s, :display, :nil?, 
+:hash, :class, :singleton_class, :clone, :itself, :dup, 
+:taint, :yield_self, :untaint, :tainted?, 
+:untrusted?, :untrust, :frozen?, :trust, 
+:methods, :singleton_methods, :protected_methods, 
+:private_methods, :!, :equal?, :instance_eval, 
+:==, :instance_exec, :!=, :__id__, :__send__]
+
+response_methods = 
+[:set_header, :to_ary, :delete_header, :to_a, :length=, :body=, :[], :[]=, :write, :close, :empty?, :redirect, 
+:headers, :header, :finish, :status=, :chunked?, :status, :body, :length, :each, :has_header?, :get_header, 
+:unprocessable?, :redirect?, :set_cookie, :add_header, :delete_cookie, :media_type_params, 
+:set_cookie_header, :location=, :cache_control, :set_cookie_header=, :content_type, :cache_control=, 
+:etag=, :location, :content_length, :include?, :etag, :media_type, :invalid?, :informational?, :successful?, 
+:redirection?, :client_error?, :server_error?, :ok?, :created?, :accepted?, :no_content?, :moved_permanently?, 
+:bad_request?, :unauthorized?, :forbidden?, :not_found?, :method_not_allowed?, :precondition_failed?, 
+:instance_variable_set, :instance_variable_defined?, :remove_instance_variable, :instance_of?, :kind_of?, 
+:is_a?, :tap, :instance_variable_get, :public_methods, :instance_variables, :method, :public_method, 
+:define_singleton_method, :public_send, :singleton_method, :extend, :pp, :to_enum, :enum_for, :gem, 
+:<=>, :===, :=~, :!~, :eql?, :respond_to?, :freeze, :inspect, :object_id, :send, :to_s, :display, :nil?, 
+:hash, :class, :singleton_class, :clone, :itself, :dup, :taint, :yield_self, :untaint, :tainted?, :untrusted?, 
+:untrust, :frozen?, :trust, :methods, :singleton_methods, :protected_methods, :private_methods, :!, :equal?, 
+:instance_eval, :==, :instance_exec, :!=, :__id__, :__send__]
+    
